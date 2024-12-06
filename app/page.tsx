@@ -24,7 +24,7 @@ export default function Page() {
     },
     {
       name: 'Soal 2',
-      question: 'Top 8 Kado Natal Terbaik',
+      question: 'Top 6 Kado Natal Terbaik',
       answers: [
         { value: 'Kartu Hadiah', score: '30', isTrue: false },
         { value: 'Pakaian', score: '26', isTrue: false },
