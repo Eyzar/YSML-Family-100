@@ -1,0 +1,84 @@
+.shape {
+    height: 0;
+    width: 0;
+    border-bottom: 30px solid black;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+  }
+
+.body{
+    padding: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-image: url('../public/lampu.png');
+    background-repeat: none;
+    background-size: cover;
+}
+/* mt-10 px-12 max-h-[600px] flex flex-wrap justify-between flex-col items-end */
+.itemContainer { 
+    border-color: #000;
+    border-radius: 20px;
+    border-width: 5px;
+    border-style: solid;
+    margin-top: 40px;
+    height: 600px;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-evenly;
+    padding: 80px;
+    position: relative;
+}
+
+.answerContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin-bottom: 20px;
+    width: 600px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.answerValue {
+    height: 64px;
+    width: 500px;
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+    background-color: #020064;
+    padding: 16px;
+    color: white
+}
+
+.scoreValue{
+    height: 64px;
+    width: 60px;
+    background-color: #a30202;
+    color: white;
+    padding: 14px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.button{
+    width: 80px;
+    height: 40px;
+    background-color: #3788FD;
+    color: white;
+    margin-left: 20px;
+}
+
+.totalScore{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: #3788FD;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
